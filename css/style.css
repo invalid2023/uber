@@ -427,7 +427,7 @@ footer .social_inst {
 .store {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid black;
+ 
   width: auto;
   height: 50px;
 }
@@ -630,13 +630,22 @@ footer ul li {
     flex-direction: column;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 570px) {
   nav {
     padding-top: 16px;
-    padding-left: 70%;
+  display: flex;
+  justify-content:flex-end;
   }
+  
   nav .menu {
     display: none;
+  }
+  nav .container{
+    width: 55px; 
+    padding-right: 0px;
+    padding-left: 0px; 
+    margin-right: 0px ;
+    margin-left: 0px;
   }
   nav .activemenu {
     padding: 0px;
@@ -715,4 +724,8 @@ footer ul li {
   .subheader_logo img {
     height: 15px;
   }
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 3s;
 }
