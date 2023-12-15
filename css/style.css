@@ -727,5 +727,15 @@ footer ul li {
 }
 
 .animate__animated.animate__fadeIn {
-  --animate-duration: 3s;
-}
+    --animate-duration: 4s;
+  }
+  .animate__animated.animate__jackInTheBox{
+    --animate-duration: 2s;
+  }
+  .animate__animated.animate__bounceIn{
+    --animate-duration: 3s;
+  }
+  .animate__animated.animate__bounceInUp{
+    --animate-duration: 2s;
+
+  }
